@@ -439,4 +439,7 @@ buck-out/
 .history
 .ionide
 
+# 비밀 설정 파일은 Git이 추적하지 않도록 무시 처리
+application-secret.properties
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,react,reactnative,intellij,java,visualstudiocode
