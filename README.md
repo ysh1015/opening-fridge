@@ -41,7 +41,7 @@
     ```
 
 2.  **데이터베이스 생성**
-    MySQL에 접속하여 아래 명령어로 프로젝트에서 사용할 데이터베이스(스키마)를 생성
+    MySQL에 접속하여 아래 명령어로 프로젝트에서 사용할 데이터베이스 생성
     ```sql
     CREATE SCHEMA `opening-fridge` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
     ```
@@ -49,8 +49,8 @@
 ### 3. 백엔드 실행 (IntelliJ)
 
 1.  IntelliJ에서 `backend-web` 폴더를 프로젝트로 열기
-2.  `src/main/resources/` 경로에 **`application-secret.properties`** 파일을 새로 생성
-3.  생성한 파일에 아래 내용을 작성하고, 실제 OpenAI API 키를 입력합니다. (이 파일은 `.gitignore`에 의해 관리되지 않음.)
+2.  `src/main/resources/` 경로에 **`application-secret.properties`** 파일 새로 생성
+3.  생성한 파일에 아래 내용을 작성하고, 실제 OpenAI API 키를 입력. (이 파일은 `.gitignore`에 의해 관리되지 않음.)
     ```properties
     # src/main/resources/application-secret.properties
     openai.api.key=sk-xxxxxxxxxxxxxxxxxxxxxxxx
