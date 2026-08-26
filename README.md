@@ -76,4 +76,9 @@
     npm run dev
     ```
 
+
+
+<img width="1030" height="1964" alt="image" src="https://github.com/user-attachments/assets/0743dad6-d0fd-48b9-9ea0-25bedfa77c8c" />
+
+
 4.  웹 브라우저를 열고 주소창에 `http://localhost:5173` 을 입력하여 접속
